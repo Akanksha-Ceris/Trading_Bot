@@ -9,5 +9,6 @@ def get_client():
         os.getenv("API_KEY"),
         os.getenv("SECRET_KEY"),
         testnet = True
+        
     )
 print("connected successfully")
